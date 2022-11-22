@@ -7,10 +7,10 @@ int b = Convert.ToInt32(Console.ReadLine());
 int max = a;
 int min = b;
 
-if (a > max) max = a;
+// if (a > max) max = a; (при проверке домашнего задания оказались лишние)
 if (b > max) max = b;
 if (a < min) min = a;
-if (b < min) min = b;
+// if (b < min) min = b; (при проверке домашнего задания оказались лишние)
 
 Console.Write("max = ");
 Console.WriteLine(max);
