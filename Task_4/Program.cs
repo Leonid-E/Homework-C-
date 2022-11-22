@@ -9,7 +9,7 @@ int c = Convert.ToInt32(Console.ReadLine());
 
 int max = a;
 
-if (a > max) max = a;
+// if (a > max) max = a; (при проверке домашнего задания оказалась лишнияя)
 if (b > max) max = b;
 if (c > max) max = c;
 
