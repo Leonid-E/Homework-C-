@@ -4,7 +4,7 @@
 
 Console.WriteLine("Введите первое число : ");
 int a = Convert.ToInt16(Console.ReadLine());
-Console.WriteLine("Введите первое число : ");
+Console.WriteLine("Введите второе число : ");
 int b = Convert.ToInt16(Console.ReadLine());
 double x = Math.Pow (a, b);
 Console.WriteLine(x);
