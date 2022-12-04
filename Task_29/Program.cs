@@ -3,13 +3,8 @@
 // 6, 1, 33 -> [6, 1, 33]
 
 int[] array = new int [8];
-for (int i = 0; i < 8; i++)
+    for (int i = 0; i < 8; i++)
     {
         array[i] = new Random().Next(100);
-        Console.Write(array[i] + "; ");
+        Console.Write(array[i] + ", ");
     }
-
- 
-
-
-    
