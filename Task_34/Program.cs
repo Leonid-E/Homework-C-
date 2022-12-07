@@ -5,23 +5,12 @@
 Console.Write("Задайте размер массива: ");
 int size = Convert.ToInt16(Console.ReadLine());
 int[] arrey = new int[size];
+int number_even_numbers = 0;
 for (int i = 0; i < size; i++)
 {
     arrey[i] = new Random().Next(100, 1000); 
     Console.Write(arrey[i] + " ");
-}
-Console.WriteLine();
-Console.Write($"Чётные числа: ");
-int even_number = 0;
-int number_even_numbers = 0;
-for (int i = 0; i < size; i++) 
-{
-    if (arrey[i] % 2 == 0)
-    {
-        even_number = arrey[i];
-        number_even_numbers++;
-        Console.Write(even_number + " ");
-    }
+    if (arrey[i] % 2 == 0) number_even_numbers++;
 }
 Console.WriteLine();
 Console.WriteLine($"Количество чётных чисел: {number_even_numbers} ");
