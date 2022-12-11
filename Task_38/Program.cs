@@ -5,11 +5,11 @@
 Console.Write("Задайте размер массива: ");
 int size = Convert.ToInt32(Console.ReadLine());
 double [] arrey = new double[size];
-double max_num = -999;
-double min_num = +999;
-for (int i = 0; i < size; i++)
+double max_num = arrey [0];
+double min_num = arrey [0];
+for (int i = 1; i < arrey.Length; i++)
 {
-    arrey[i] = new Random().Next(-999, 1000);
+    arrey[i] = new Random().Next(-10, 10);
     Console.Write(arrey[i] + " ");
     if (arrey[i] > max_num)
         max_num = arrey[i];
