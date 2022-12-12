@@ -21,7 +21,7 @@ for (int i = 0; i < array.GetLength(0); i++)
     }
     Console.WriteLine();
 }
-Console.WriteLine($"Среднее арефметическое каждого столбца: "); 
+Console.WriteLine($"Среднее арифметическое каждого столбца: "); 
 for (int j = 0; j < array.GetLength(1); j++)
 {
     double temp = 0;

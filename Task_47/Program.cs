@@ -5,8 +5,9 @@
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
 
-Console.Write("Введите два числа: ");
+Console.Write("Введите колличество строк массива с вещественными числами: ");
 int m = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите колличество столбцов массива: ");
 int n = Convert.ToInt32(Console.ReadLine());
 double [, ] array = new double [m, n];
 Random random = new Random();
