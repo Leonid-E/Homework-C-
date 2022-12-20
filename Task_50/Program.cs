@@ -34,3 +34,31 @@ for (int i = 0; i < array.GetLength(0); i++)
 }
 if (numbers == 0)
 Console.Write($"Такого числа ({x}) нет в массиве"); 
+
+// Console.Write("Введите искомое число: ");
+// int x = Convert.ToInt32(Console.ReadLine());
+// int [, ] array = new int [3, 4];
+// Random random = new Random();
+// for (int i = 0; i < array.GetLength(0); i++)
+// {
+//     for (int j = 0; j < array.GetLength(1); j++)
+//     {
+//         array [i, j] = random.Next(10);
+//         Console.Write($"{array[i, j]} ");
+//     }
+//     Console.WriteLine();
+// }
+// int numbers = 0; // количество совпадений
+// for (int i = 0; i < array.GetLength(0); i++)
+// {
+//     for (int j = 0; j < array.GetLength(1); j++)
+//     {
+//         if (array[i,j] == x )
+//         {
+//             numbers = array[i,j];
+//             numbers++;
+//         }   
+//     }  
+// }
+// if (numbers == 0)
+// Console.Write($"Такого числа ({x}) нет в массиве"); 
